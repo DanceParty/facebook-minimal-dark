@@ -1,0 +1,149 @@
+#sideNav {
+  display: none;
+}
+
+.fbChatSidebar {
+  display: none !important;;
+}
+
+.pagelet {
+  display: none;
+}
+
+[data-testid="fbFeedStoryUFI/feedbackSummary"] {
+  display: none;
+}
+
+[data-testid*="CommentsList"] {
+  display: none;
+}
+
+[role="banner"] {
+  background-color: #212121;
+  border-bottom: 1px solid #000;
+}
+
+.userContentWrapper {
+  background-color: #424242;
+  color: white !important;
+  
+}
+
+.userContentWrapper * {
+  color: white !important;
+}
+
+#globalContainer {
+  background-color: #303030;
+}
+
+body { 
+  background-color: #303030 !important; 
+  background: #303030 !important;
+}
+
+#contentCol {
+  background-color: #303030 !important; 
+  background: #303030 !important;
+}
+
+
+[id*="hyperfeed_story_id"] > div::before {
+  border: 2px solid #424242 !important;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+[id*="hyperfeed_story_id"] > div {
+  background: #424242;
+  border: 2px solid #424242 !important;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+[data-testid="react-composer-root"] {
+  background-color: #303030 !important;
+  background: #303030 !important;
+}
+
+[data-testid="react-composer-root"] > div {
+  background-color: #303030 !important;
+  background: #303030 !important;
+  border: none !important;
+}
+
+[data-testid="react-composer-root"]::before {
+  border: none !important;
+}
+
+[data-testid="react-composer-root"] > div > span > span {
+  display: none;
+}
+
+[data-testid="collapsed_sprouts"] {
+  display: none;
+}
+
+[data-testid="react-composer-root"] > div > div > div > div {
+  border-top: none;
+}
+
+#pagelet_rhc_footer {
+  display: none;
+}
+
+[role="search"] {
+  display: none;
+}
+
+[role="navigation"] {
+  display: none !important;
+}
+
+/* event footer info */
+[style="max-width:500px;"] > div:nth-last-child(1) {
+  display: none;
+}
+
+[target="_blank"] {
+  display: none;
+}
+
+[class*="lfloat"] {
+  display: none;
+}
+
+[role="button"] {
+  background: #424242 !important; 
+}
+
+[role="button"]:hover {
+  background: #212121 !important; 
+}
+
+/* side arrow in sponsored */
+[role="button"] > div {
+  background: #424242 !important;
+  border: none;
+}
+
+[data-testid="react-composer-footer"] > div {
+  background: #424242;
+}
+
+[data-testid="react-composer-post-button"] {
+  background: #424242 !important;
+  border: none !important;
+}
+
+.uiList > li > div {
+  display: none;
+}
+
+.uiLikePageButton {
+  display: none;
+}
+
+.userContent + div > div {
+  border-top-color: #303030 !important;
+}
