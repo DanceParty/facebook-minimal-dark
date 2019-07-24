@@ -1,52 +1,54 @@
+
+/*
+  left navigation bar
+*/
 #sideNav {
   display: none;
 }
 
+/*
+  right sidebar - friends list 
+*/
 .fbChatSidebar {
   display: none !important;;
 }
 
+/*
+  right sidebar - events/sponsored/stories/marketplace
+*/
 .pagelet {
   display: none;
 }
 
+/*
+  element containing number of likes/reactions
+*/
 [data-testid="fbFeedStoryUFI/feedbackSummary"] {
   display: none;
 }
 
+/*
+  comments section
+*/
 [data-testid*="CommentsList"] {
   display: none;
 }
 
+/*
+  top navigation bar
+*/
 [role="banner"] {
-  background-color: #212121;
-  border-bottom: 1px solid #000;
+  background-color: #212121 !important;
+  border-bottom: 1px solid #000 !important;
 }
 
+/*
+  feed cards
+*/
 .userContentWrapper {
   background-color: #424242;
   color: white !important;
-  
 }
-
-.userContentWrapper * {
-  color: white !important;
-}
-
-#globalContainer {
-  background-color: #303030;
-}
-
-body { 
-  background-color: #303030 !important; 
-  background: #303030 !important;
-}
-
-#contentCol {
-  background-color: #303030 !important; 
-  background: #303030 !important;
-}
-
 
 [id*="hyperfeed_story_id"] > div::before {
   border: 2px solid #424242 !important;
@@ -61,6 +63,32 @@ body {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
+/*
+  feed cards children
+*/
+.userContentWrapper * {
+  color: white !important;
+}
+
+/*
+  page
+*/
+body { 
+  background-color: #303030 !important; 
+  background: #303030 !important;
+}
+
+/*
+  main-content column
+*/
+#contentCol {
+  background-color: #303030 !important; 
+  background: #303030 !important;
+}
+
+/*
+  TODO: ???
+*/
 [data-testid="react-composer-root"] {
   background-color: #303030 !important;
   background: #303030 !important;
@@ -88,14 +116,23 @@ body {
   border-top: none;
 }
 
+/*
+  sidebar - languages
+*/
 #pagelet_rhc_footer {
   display: none;
 }
 
+/*
+  top nav - search bar
+*/
 [role="search"] {
   display: none;
 }
 
+/*
+  top nav - notifications, friends, messages, links
+*/
 [role="navigation"] {
   display: none !important;
 }
@@ -105,6 +142,9 @@ body {
   display: none;
 }
 
+/*
+  remove links that take you outside facebook
+*/
 [target="_blank"] {
   display: none;
 }
@@ -146,4 +186,43 @@ body {
 
 .userContent + div > div {
   border-top-color: #303030 !important;
+}
+
+/*
+  all borders
+*/
+
+* {
+  border-color: #212121 !important;
+}
+
+/*
+  What's on your mind box at top
+*/
+#feedx_sprouts_container > div {
+  display: none;
+}
+
+/*
+  Loading placeholders
+*/
+
+[data-testid="fbfeed_placeholder_story"] {
+  background-color: #424242 !important;
+  background: #424242 !important;
+}
+
+[data-testid="fbfeed_placeholder_story"] > div::before {
+  background-color: #424242 !important;
+  background: #424242 !important;
+}
+
+[data-testid="fbfeed_placeholder_story"] > div > div {
+  background-color: #212121 !important;
+  background: #212121 !important;
+}
+
+[data-testid="fbfeed_placeholder_story"] > * {
+  background-color: #424242 !important;
+  background: #424242 !important;
 }
