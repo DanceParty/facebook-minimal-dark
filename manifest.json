@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Minimal Dark Facebook",
+  "version": "1.0",
+  "description": "Minimal and dark theme for the facebook web app",
+  "short_name": "Min-dark Facebook",
+  "permissions": ["activeTab", "declarativeContent", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["https://facebook.com/*"],
+      "css": ["index.css"],
+      "js": ["index.js"]
+    }
+  ],
+  "page_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  }
+}
